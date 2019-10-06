@@ -1,0 +1,32 @@
+
+
+
+//Creating parent class.
+class Animal{
+    void eat(){
+        System.out.println("eating.....");
+    }
+}
+//creating subclass DOg.
+class Dog extends Animal{
+    void bark(){
+        System.out.println("barkling...");
+    }
+}
+creating Second Subclass Cat.
+class Cat extends Animal{
+    void speak(){
+        System.out.println("meow......");
+    }
+}
+//creating main class .
+class Main{
+    public static void main(String[] args){
+        Dog d = new Dog();
+        Cat c = new Cat();
+        d.bark();
+        d.eat();
+        c.eat();
+        c.speak();
+    }
+}
