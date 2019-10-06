@@ -1,13 +1,11 @@
 
-
-
 //Creating parent class.
 class Animal{
     void eat(){
         System.out.println("eating.....");
     }
 }
-//creating subclass DOg.
+//creating subclass Dog.
 class Dog extends Animal{
     void bark(){
         System.out.println("barkling...");
