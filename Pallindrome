@@ -1,15 +1,16 @@
 import java.util.Scanner;
 public class Main{
   public static void main(String[] args){
-    int a, sum =0, rev;
+    int a, sum =0, temp;
     Scanner sc = new Scanner(System.in);
-    a = sc.nextInt();
+    int b = sc.nextInt();
+    temp = b;
     while(1){
-        a = a%10;
-        rev = rev +a;
-        a = a/10;
+        a = b%10;
+        sum = (sum*10) +a;
+        b= b/10;
         }
-        if(a == rev){
+        if(temp == sum){
         System.out.println("");
         else{
         System.out.println("");
