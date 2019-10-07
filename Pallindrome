@@ -1,6 +1,6 @@
 /*java program to check whether the
   number entered by the user is pallindrome or not?*/
-@ Author :- Ritik Kumar;
+//@ Author :- Ritik Kumar;
 
 import java.util.Scanner;
 public class Main{
@@ -17,10 +17,10 @@ public class Main{
         }
         if(temp == sum){
 
-            System.out.println(b + "is a pallindrome number);
+            System.out.println(temp + "   is a pallindrome number);
             }
         else{
-        System.out.println(b + "is not a pallindrome number");
+        System.out.println(temp + "     is not a pallindrome number");
         }
    }  
 }
