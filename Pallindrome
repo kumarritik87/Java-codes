@@ -1,8 +1,13 @@
+/*java program to check whether the
+  number entered by the user is pallindrome or not?*/
+@ Author :- Ritik Kumar;
+
 import java.util.Scanner;
 public class Main{
   public static void main(String[] args){
     int a, sum =0, temp;
     Scanner sc = new Scanner(System.in);
+    System.out.println("Enter the number to check:-");
     int b = sc.nextInt();
     temp = b;
     while(b>0){
