@@ -1,4 +1,4 @@
-
+/*Simple example of inheritance class */
 //Creating parent class.
 class Animal{
     void eat(){
