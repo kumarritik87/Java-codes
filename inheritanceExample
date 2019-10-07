@@ -1,6 +1,6 @@
 /*Simple example of inheritance class */
 //Creating parent class.
-class Animal{
+public class Animal{
     void eat(){
         System.out.println("eating.....");
     }
