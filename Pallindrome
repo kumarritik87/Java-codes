@@ -5,15 +5,17 @@ public class Main{
     Scanner sc = new Scanner(System.in);
     int b = sc.nextInt();
     temp = b;
-    while(1){
+    while(b>0){
         a = b%10;
         sum = (sum*10) +a;
         b= b/10;
         }
         if(temp == sum){
-        System.out.println("");
+
+            System.out.println(b + "is a pallindrome number);
+            }
         else{
-        System.out.println("");
+        System.out.println(b + "is not a pallindrome number");
         }
         }
         }
