@@ -17,5 +17,5 @@ public class Main{
         else{
         System.out.println(b + "is not a pallindrome number");
         }
-        }
-        }
+   }  
+}
