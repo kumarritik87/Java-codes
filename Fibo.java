@@ -1,6 +1,11 @@
+/* java program to print fibonacci series
+    upto a number entered by the user
+  
+  @ Author :- Ritik Kumar;  */
+
+
+
 import java.util.Scanner;
-
-
 public class Fibo{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
