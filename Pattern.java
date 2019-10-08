@@ -1,3 +1,11 @@
+/* java program to prnit pattern
+   A
+   BB
+   CCC
+   DDDD
+                                 */
+
+
 public class Pattern{
     public static void main(String[] args){
         int i, j, n = 4;
