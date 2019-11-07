@@ -16,7 +16,7 @@ import java.util.Scanner;
         System.out.println("Enter year of joining");
         int yearOfJoining = sc.nextInt();
         String firstName1 = firstName.toLowerCase();
-        String lastName1 = lastName.toLowerCase();
+        String lastName1 = lastName.toLowerCase();  
 
         System.out.println(firstName1+ "."+ lastName1 + "_"+ branchCode+""+yearOfJoining+"@gla.ac.in");
         System.out.println("Enter emailId :- ");
